@@ -26,7 +26,7 @@
       <div class="grid">
         <figure class="effect-lexi"> <img src="<?php echo get_template_directory_uri(); ?>/images/image_companylink.jpg" alt="company">
           <figcaption>
-            <h2>工場・設備案内</h2>
+            <h2>会社概要</h2>
             <p>詳細へ</p>
             <a href="<?php echo esc_url( home_url( 'company') ); ?>#factory"> </a></figcaption>
         </figure>
@@ -55,12 +55,12 @@
   <section class="factory">
     <div class="container">
       <h2 class="titleType3">設備案内</h2>
-      <div class="card"> <figure class="card__image"><img src="images/top_facility.jpg" alt=""/></figure>
+      <div class="card"> <figure class="card__image"><img src="<?php echo get_template_directory_uri(); ?>/images/top_facility.jpg" alt=""/></figure>
         <div class="card-body">
           <h5 class="titleType1">多様な設備を完備</h5>
           <p class="card-text">昭和ネームプレートでは、生産量･形態に合わせた多様な設備を導入しており、お客様のご要望に幅広くお応えできる環境を用意しています。<br>
             安全・安心な施設環境の確保のため、設備の老朽化対策として、日常の保全や中長期的に入れ替え時期を定め、さらなる万全の体制をもって、従業員一丸となり「顧客満足への挑戦」を目指します。 </p>
-          <a href="factory.html" class="btn btn-lg btn-danger">設備案内へ</a> </div>
+          <a href="<?php echo get_template_directory_uri(); ?>/factory/" class="btn btn-lg btn-danger">設備案内へ</a> </div>
       </div>
     </div>
   </section>
@@ -78,21 +78,21 @@
             $args = array(
               'post_type' => 'post',
               'category_name' => 'news',
-              'posts_per_page' => 3,
+              'posts_per_page' => 5,
             );
             $news_posts = new WP_Query( $args );
             if ( $news_posts->have_posts() ):
               while ( $news_posts->have_posts() ): $news_posts->the_post();
             ?>
             <!-- 1番目のパネル -->
-            <div class="panel panel-default">
-              <div class="panel-heading">
+            <div class="panel panel-default accordion">
+              <div class="panel-heading accordion_title"><span class="accordion_toggle"></span>
                 <h3 class="panel-title">
                   <?php the_time('Y.m.d'); ?>
                   <?php the_title(); ?>
                 </h3>
               </div>
-              <div id="01dec" class="panel-collapse collapse in">
+              <div id="01dec" class="panel-collapse collapse in" style="display: none;">
                 <div class="panel-body">
                   <?php the_content(); ?>
                 </div>
@@ -119,4 +119,11 @@
     </div>
   </section>
 </main>
+<script>
+	jQuery(function($) {
+	$(".accordion_title").click(function() {
+		$(this).toggleClass("active").next().slideToggle();
+		return false;
+	});
+	});</script>
 <?php get_footer(); ?>
