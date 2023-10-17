@@ -30,7 +30,7 @@ get_header();
       <p>先ずはご相談下さい。社内加工のできないものは弊社６０年の歴史で培ってきた協力工場との繋がりを駆使し対応させていただきます。商社としての実績も多々ございますので、あらゆるニーズお力添えできるよう準備しております。</p>
       <a href="/contact/">
       <button type="button" class="btn btn-lg btn-info margin-bottom-lg margin-top-sm"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> お問い合わせはこちら</button>
-      </a><img src="<?php echo get_template_directory_uri(); ?>/images/flow.png" alt="フロー" width="1539" class="img-responsive center-block"/> </div>
+      </a></div>
   </section>
 </main>
 <?php get_footer(); ?>

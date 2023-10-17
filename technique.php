@@ -66,7 +66,63 @@ get_header();
           </div>
         </div>
         <p>上記加工はH30.10月迄の実績を基に掲載しております。</p>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/flow.png" alt="フロー" width="1539" class="img-responsive center-block"/> </div>
+        <!-- <img src="/images/flow.png" alt="フロー" width="1539" class="img-responsive center-block"/> -->
+        <section class="process_con">
+                <h2 class="technique-title">お問い合わせから納品までの流れ</h2>
+                <h4>生産管理システムによる一括管理を行っております。</h4>
+                <div>
+                  <div class="col span_4">
+                    <h3>1．お問い合わせ</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>まずはお問い合わせいただき、お客様のご依頼内容をご確認させていただきます。
+                      <br> ご質問や確認なども承っておりますので、お気軽にご連絡ください。 </p>
+                  </div>
+                </div>
+                <div>
+                  <div class="col span_4">
+                    <h3>2．お見積もり</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>見積書を作成し、納期と合わせてご解答致します。 </p>
+                  </div>
+                </div>
+                <div>
+                  <div class="col span_4">
+                    <h3>3．受注</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>金額･数量･納期･仕様などにご承認いただけましたら、受注契約になります。
+                      <br> お客様から注文書をいただきます。 </p>
+                  </div>
+                </div>
+                <div>
+                  <div class="col span_4">
+                    <h3>4．各工程製造</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>各種機械の設置による自社内一貫生産体制にて製造を行います。
+                      <br> 必要に応じ、信頼のおける協力会社様にも、助力いただきます。 </p>
+                  </div>
+                </div>
+                <div>
+                  <div class="col span_4">
+                    <h3>5．検査</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>製品の初回検査から、工程検査を経て、最終検査を行います。 </p>
+                  </div>
+                </div>
+                <div>
+                  <div class="col span_4">
+                    <h3>6．梱包・出荷</h3>
+                  </div>
+                  <div class="col span_8">
+                    <p>納期･数量･仕様などを最終確認し、間違いのない納品を行います。 </p>
+                  </div>
+                </div>
+              </section>
+        </div>
     </div>
   </section>
   </main>
