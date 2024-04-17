@@ -7,7 +7,7 @@ get_header();
 <main role="main"> 
   <!-- main -->
   <div class="container padding-top-md">
-    <p>昭和ネームプレートはISO9001認証取得企業です。<a href="http://showa-np.com/wp/wp-content/uploads/2022/07/ISO9001.pdf" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/images/icon_pdf.png" alt="" width="32" height="32"/> </a> </p>
+    <p>昭和ネームプレートはISO9001認証取得企業です。<a href="https://showa-np.co.jp/wp-content/uploads/2023/02/ISO9001.pdf" target="_blank"> <img src="<?php echo get_template_directory_uri(); ?>/images/icon_pdf.png" alt="" width="32" height="32"/> </a> </p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/quality.jpg" alt="品質" width="1599" height="715" class="img-responsive"/> </div>
   
   <!-- main -->

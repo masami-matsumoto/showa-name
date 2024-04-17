@@ -5,6 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
+<!-- 旧URLから新URLに誘導 -->
+<!-- <meta http-equiv="refresh" content="0;url=https://showa-np.co.jp/"> -->
 <title><?php echo wp_get_document_title(); ?></title>
 <meta name="description" content="昭和ネームプレート株式会社は、埼玉県越谷市蒲生にある、シルク印刷　シルクスクリーン印刷　オフセット印刷　シール印刷　アルマイト印刷　プレス加工　中心の印刷会社になります。　自社工場で製造・検査・出荷している為、短納期・低コストでの製造を実現。蒲生工場　レイクタウン工場と２か所に工場を持ち設備も充実しています。ISO９００１　エコアクション２１　UL、CSA規格品認定工場　として、品質・環境に特化した工場です。各種材料も取り揃えております。">
 
@@ -37,6 +39,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]--> 
 <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/lobster-two:n4:default;roboto:n4:default;courier-prime:n4:default.js" type="text/javascript"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N39GN1W2N0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N39GN1W2N0');
+</script>
+
 <?php wp_head(); ?>
 </head>
 

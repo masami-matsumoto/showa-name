@@ -7,7 +7,7 @@ get_header();
 <main role="main"> 
   <!-- main -->
   <div class="container padding-top-md">
-    <p>昭和ネームプレートはEA21認定の工場です。 <a href="http://showa-np.com/wp/wp-content/uploads/2022/07/ea21_rc2020.pdf">
+    <p>昭和ネームプレートはEA21認定の工場です。 <a href="https://showa-np.co.jp/wp-content/uploads/2023/02/ea21_rc2020.pdf">
       <button type="button" class="btn btn-success btn-title">EA21登録証2020(PDF) </button>
       </a> </p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/image eco main.jpg" alt="エコアクション" width="1600" height="740" class="img-responsive img-fluid"/> </div>
@@ -72,7 +72,7 @@ get_header();
           <div class="col-eco">
 			  <?php $args = array(
                 'post_type' => 'environmental_report',
-                'posts_per_page' => 9,
+                'posts_per_page' => -1,
                ); ?>
             <ul class="ul-eco">
 				<? $myposts = new WP_Query($args);
