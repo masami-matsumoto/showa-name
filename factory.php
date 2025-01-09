@@ -13,7 +13,7 @@ get_header();
       <p>3種の印刷機と11台のプレス機で多様な製品を自社一括で生産可能。少量から多量生産までフレキシブルに対応。レイクタウン工場には業界でも珍しい150tサイズのプレス機を導入し、大型部品の加工も数多く実績を築いております。</p>
     </div>
     <section class="container padding-bottom-md index-content factory-equipment">
-      <h3 class="titleType2 factory_title">蒲生工場の概要</h3>
+      <h3 class="titleType2 factory_title">埼玉工場の概要</h3>
       <div class="grid-row">
         <dl class="card">
           <dt class="card__title">平台オフセット印刷機</dt>
@@ -46,7 +46,7 @@ get_header();
           <dd class="card__text"></dd>
         </dl>
       </div>
-      <h4 class="text-left titleType3">蒲生工場設備一覧</h4>
+      <h4 class="text-left titleType3">埼玉工場設備一覧</h4>
       <div class="row">
         <div class="col-sm-6 text-center col-xs-12">
           <table class="table text-left">

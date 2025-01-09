@@ -103,7 +103,7 @@ get_header();
               <div class="accordion_title">募集要項<span class="accordion_toggle"></span></div>
               <dl class="dl-horizontal" style="display: none;">
                 <dt>〇給与</dt>
-                <dd>【時給】1,000円～</dd>
+                <dd>【時給】1,150円～</dd>
                 <dt>〇勤務時間</dt>
                 <dd>週3日～、1日5時間からお願いします♪</dd>
                 <dt>〇待遇</dt>
